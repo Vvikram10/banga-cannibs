@@ -2,8 +2,8 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './App.css';
 import Loading from './components/home/Loading';
-import Home from './components/home/home';
 import LocationPage from './pages/seo/LocationPage';
+import Home from `./components/home/Home`;
 
 function App() {
   return (
