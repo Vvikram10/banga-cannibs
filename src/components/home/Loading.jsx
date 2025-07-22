@@ -55,16 +55,17 @@ export default function Loading() {
     // Main container - bg-cover and bg-center classes removed
     <div className="relative min-h-screen w-full flex items-center justify-center font-sans overflow-hidden">
       {/* --- Video Background Added --- */}
-      <video
-        autoPlay
-        loop
-        muted
-        className="absolute top-0 left-0 w-full h-full object-cover -z-10"
-      >
-        {/* Replace with your video path */}
-        <source src="/video/Cannabis_Temple_Cinematic_Video - Trim1.mp4" type="video/mp4" />
-        Your browser does not support the video tag.
-      </video>
+  <video
+  autoPlay
+  loop
+  muted
+  playsInline
+  className="absolute top-0 left-0 w-full h-full object-cover -z-10"
+>
+  <source src="/video/bg-4.mp4" type="video/mp4" />
+  Your browser does not support the video tag.
+</video>
+
 
       <Helmet>
         <title>Bhanga Cannabis | Age Verification</title>
